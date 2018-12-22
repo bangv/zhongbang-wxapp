@@ -1,0 +1,75 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="d-gb">
+    <image src="../../images/bg.png" mode='widthFix'></image>
+  </view>
+  <view class="d-b">
+    <image src="../../images/frame.png" mode='widthFix'></image>
+  </view>
+  <view class="d-container">
+    <view class="logo-title">
+      <view class='top-logo'>
+        <image src="../../images/logo.png" mode='widthFix'></image>
+      </view>
+      <view class='top-title'>
+        <view class='title-b'>众帮互助</view>
+        <view class='title-m'>一款帮人帮己的APP</view>
+      </view>
+    </view>
+    <view class='role-b'>
+      让你换个“活”法
+      <image class='i-l' src="../../images/role2.png" mode='widthFix'></image>
+      <image src="../../images/role1.png" mode='widthFix'></image>
+    </view>
+    <view class='contant-m'>
+      <text>官方QQ：878543593</text>
+      <text>官方微信：<text selectable="true">zhongbang988</text></text>
+    </view>
+        <view class='m-btn' bindtap="copyTBL">
+      一键复制微信号
+    </view>
+    <view class='c-code'>
+      <view>
+        <view>扫码下载APP</view>
+        <!-- <view class='save'>点击二维码保存到相册</view> -->
+      </view>
+      <view class='s-code'>
+        <image src="../../images/code.png" mode='widthFix'></image>
+      </view>
+    </view>
+    <view class='m-btn' bindtap="share">
+      马上行动
+    </view>
+  </view>
+  <view class='img-nav'>
+    零碎时间积少成多
+    <image class='title-l' src="../../images/left1.png" mode='widthFix'></image>
+    <image src="../../images/right1.png" mode='widthFix'></image>
+  </view>
+  <view class='con-img'>
+    <image src="../../images/photo1.png" mode='widthFix'></image>
+  </view>
+  <view class='con-img'>
+    <image src="../../images/photo2.png" mode='widthFix'></image>
+  </view>
+  <view class='con-img'>
+    <image src="../../images/photo3.png" mode='widthFix'></image>
+  </view>
+  <view class='kuang-b'>
+    <view class='kuang-b-one'>
+      <view class='one-mid'>
+        1分钟就够了
+      </view>
+      <view class='one-line'></view>
+      <view class='one-bt'>
+        来吧，换个“活”法，一起做时间的老板！
+      </view>
+    </view>
+  </view>
+
+  <canvas canvas-id="shareImg" style="width:545px;height:771px"></canvas>
+  <!-- <view hidden='{{hidden}}' class='preview'>
+      <image src='{{prurl}}' mode='widthFix'></image>
+      <button type='primary' size='mini' bindtap='save'>保存分享图</button>
+    </view> -->
+</view>
