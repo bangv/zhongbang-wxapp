@@ -17,6 +17,14 @@ page {
 .d-gb {
   width: 100%;
 }
+.m-btn-a{
+  text-align: center;
+  font-size: 28rpx;
+  border-bottom: 1px solid #666;
+  width: 200rpx;
+  margin: 0 auto;
+  margin-top:20rpx;
+}
 
 .d-gb>image {
   width: 100%;
@@ -26,7 +34,7 @@ page {
   width: 100%;
   /* left: 5%; */
   position: absolute;
-  top: 116rpx;
+  top: 90rpx;
   z-index: 1;
 }
 
@@ -48,6 +56,47 @@ page {
   display: flex;
 }
 
+.one-min-contant {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  padding: 10rpx;
+}
+.title-type-m{
+  margin-left: 10rpx;
+  font-size: 30rpx;
+  color: #666666;
+}
+.title-type{
+  margin-left: 10rpx;
+  font-size: 32rpx;
+  color: #333;
+}
+
+.line-title {
+  margin-top: 80rpx;
+  margin-bottom:40rpx;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  padding-left: 80rpx;
+}
+
+.line-contant {
+  font-size: 36rpx;
+  font-weight: bold;
+  text-align: center;
+}
+
+.line-left {
+  width: 100rpx;
+}
+
+.line-left>image {
+  width: 100%;
+  height: 100%;
+}
+
 .top-logo {
   width: 80rpx;
   margin-left: 30rpx;
@@ -64,6 +113,11 @@ page {
 .title-b {
   color: #333;
   font-size: 34rpx;
+}
+
+.one-min-logo, .one-min-logo>image{
+  width: 100rpx;
+  height: 100rpx;
 }
 
 .preview {
@@ -172,7 +226,7 @@ canvas {
 .img-nav {
   width: 72%;
   margin: 0rpx auto;
-  margin-top: 270rpx;
+  margin-top: 240rpx;
   margin-bottom: 50rpx;
   color: #333;
   font-weight: bold;
@@ -209,6 +263,21 @@ canvas {
   position: relative;
 }
 
+.kuang-b-1m {
+  width: 94%;
+  margin-left: 2%;
+  border: 3px solid rgba(255, 67, 67, 0.4);
+  position: relative;
+  /* padding: 10rpx; */
+}
+
+.kuang-b-c {
+  /* width: 100%; */
+  margin: 10rpx;
+  border: 1px solid rgba(255, 67, 67, 0.4);
+  height: 100%;
+}
+
 .kuang-b-one {
   width: 100%;
   height: 200rpx;
@@ -239,7 +308,7 @@ canvas {
 
 .one-mid {
   color: #333;
-  font-size: 38rpx;
+  font-size: 32rpx;
   padding: 24rpx;
   padding-right: 0rpx;
   font-weight: bold;
@@ -254,7 +323,7 @@ canvas {
 
 .one-bt {
   color: #333;
-  font-size: 32rpx;
+  font-size: 30rpx;
   padding: 20rpx;
   padding-right: 0rpx;
   line-height: 60rpx;

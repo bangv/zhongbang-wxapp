@@ -17,7 +17,7 @@
       </view>
     </view>
     <view class='role-b'>
-      让你换个“活”法
+      只要有手机就能赚
       <image class='i-l' src="../../images/role2.png" mode='widthFix'></image>
       <image src="../../images/role1.png" mode='widthFix'></image>
     </view>
@@ -25,7 +25,7 @@
       <text>官方QQ：878543593</text>
       <text>官方微信：<text selectable="true">zhongbang988</text></text>
     </view>
-        <view class='m-btn' bindtap="copyTBL">
+    <view class='m-btn-a' bindtap="copyTBL">
       一键复制微信号
     </view>
     <view class='c-code'>
@@ -64,6 +64,93 @@
       <view class='one-bt'>
         来吧，换个“活”法，一起做时间的老板！
       </view>
+    </view>
+  </view>
+  <view class='line-title'>
+    <view class='line-left'>
+      <image src="../../images/left1.png" mode='widthFix'></image>
+    </view>
+    <view class='line-contant'>1分钟，海量任务挑选</view>
+    <view class='line-left'>
+
+      <image src="../../images/right1.png" mode='widthFix'></image>
+    </view>
+  </view>
+  <view class='kuang-b-1m'>
+    <view class='kuang-b-c'>
+      <view class='one-min-contant'>
+        <view class='one-min-logo'>
+          <image src="../../images/icon_sign.png" mode='aspectFit'></image>
+        </view>
+        <view>
+          <view class='title-type'>注册</view>
+          <view  class='title-type-m'>APP注册、微信公众号注册等</view>
+        </view>
+      </view>
+            <view class='one-min-contant'>
+        <view class='one-min-logo'>
+          <image src="../../images/icon_vote.png" mode='aspectFit'></image>
+        </view>
+        <view>
+          <view class='title-type'>投票</view>
+          <view  class='title-type-m'>砍价助力、微信点赞、网络投票等</view>
+        </view>
+      </view>
+            <view class='one-min-contant'>
+        <view class='one-min-logo'>
+          <image src="../../images/icon_follow.png" mode='aspectFit'></image>
+        </view>
+        <view>
+          <view class='title-type'>关注</view>
+          <view  class='title-type-m'>店铺关注、微博大V关注等</view>
+        </view>
+      </view>
+            <view class='one-min-contant'>
+        <view class='one-min-logo'>
+          <image src="../../images/icon_browse.png" mode='aspectFit'></image>
+        </view>
+        <view>
+          <view class='title-type'>浏览</view>
+          <view  class='title-type-m'>广告浏览、新闻浏览、视频浏览等</view>
+        </view>
+      </view>
+            <view class='one-min-contant'>
+        <view class='one-min-logo'>
+          <image src="../../images/icon_forward.png" mode='aspectFit'></image>
+        </view>
+        <view>
+          <view class='title-type'>转发</view>
+          <view  class='title-type-m'>朋友圈转发、微博转发、文章转发等</view>
+        </view>
+      </view>
+            <view class='one-min-contant'>
+        <view class='one-min-logo'>
+          <image src="../../images/icon_fans.png" mode='aspectFit'></image>
+        </view>
+        <view>
+          <view class='title-type'>加粉</view>
+          <view  class='title-type-m'>微信加粉、淘宝店铺加粉等</view>
+        </view>
+      </view>
+            <view class='one-min-contant'>
+        <view class='one-min-logo'>
+          <image src="../../images/icon_post.png" mode='aspectFit'></image>
+        </view>
+        <view>
+          <view class='title-type'>发帖</view>
+          <view  class='title-type-m'>朋友圈发帖、游戏发帖、问答发帖等</view>
+        </view>
+      </view>
+            <view class='one-min-contant'>
+        <view class='one-min-logo'>
+          <image src="../../images/icon_comment.png" mode='aspectFit'></image>
+        </view>
+        <view>
+          <view class='title-type'>评论</view>
+          <view  class='title-type-m'>扫码好评、天猫评价、应用评价等</view>
+        </view>
+      </view>
+      
     </view>
   </view>
 
